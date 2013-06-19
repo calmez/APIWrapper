@@ -1,0 +1,6 @@
+[submodule "Dependencies/MKNetworkKit"]
+	path = Dependencies/MKNetworkKit
+	url = git@github.com:calmez/MKNetworkKit.git
+[submodule "Dependencies/JSONKit"]
+	path = Dependencies/JSONKit
+	url = git@github.com:johnezang/JSONKit.git
