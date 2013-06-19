@@ -1,0 +1,8 @@
+{
+    "apis": [
+        {
+            "name": "MyAPIsName",
+            "file": "config"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "http://api.example.com",
+    "endpoints": [
+        {
+            "name": "endpoint1",
+            "type": "post",
+            "ins": {
+                "required": [
+                    {
+                        "name": "type1",
+                        "type": "NSInteger"
+                    },
+                    {
+                        "name": "type2",
+                        "type": "NSString"
+                    }
+                ],
+                "optional": [
+                    {
+                        "name": "type3",
+                        "type": "CustomType"
+                    }
+                ]
+            },
+            "outs": [
+                {
+                    "name": "type1",
+                    "type": "NSInteger"
+                },
+                {
+                    "name": "type2",
+                    "type": "NSString"
+                },
+                {
+                    "name": "type3",
+                    "type": "CustomType"
+                }
+            ]
+        }
+    ],
+    "types": [
+        {
+            "name": "CustomType",
+            "fields": [
+                {
+                    "name": "field1",
+                    "type": "NSNumber"
+                },
+                {
+                    "name": "field2",
+                    "type": "NSString"
+                },
+                {
+                    "name": "field3",
+                    "type": "OtherCustomType"
+                }
+            ]
+        },
+        {
+            "name": "OtherCustomType",
+            "fields": [
+                {
+                    "name": "field1",
+                    "type": "NSNumber"
+                },
+                {
+                    "name": "field2",
+                    "type": "NSString"
+                }
+            ]
+        }
+    ]
+}
