@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A6C58D177260AB0076E75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6C58C177260AB0076E75C /* Foundation.framework */; };
+		79A6C592177260AB0076E75C /* APIWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79A6C591177260AB0076E75C /* APIWrapper.h */; };
+		79A6C594177260AB0076E75C /* APIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6C593177260AB0076E75C /* APIWrapper.m */; };
+		79A6C59C177260AB0076E75C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6C59B177260AB0076E75C /* SenTestingKit.framework */; };
+		79A6C59E177260AB0076E75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6C59D177260AB0076E75C /* UIKit.framework */; };
+		79A6C59F177260AB0076E75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6C58C177260AB0076E75C /* Foundation.framework */; };
+		79A6C5A2177260AB0076E75C /* libAPIWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6C589177260AB0076E75C /* libAPIWrapper.a */; };
+		79A6C5A8177260AB0076E75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79A6C5A6177260AB0076E75C /* InfoPlist.strings */; };
+		79A6C5AB177260AB0076E75C /* APIWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6C5AA177260AB0076E75C /* APIWrapperTests.m */; };
+		79A6C5B7177261C60076E75C /* DataObjet.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6C5B6177261C60076E75C /* DataObjet.m */; };
+		79A6C5BA177264010076E75C /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6C5B9177264010076E75C /* Config.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A6C5A0177260AB0076E75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A6C581177260AB0076E75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A6C588177260AB0076E75C;
+			remoteInfo = APIWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79A6C587177260AB0076E75C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				79A6C592177260AB0076E75C /* APIWrapper.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79A6C589177260AB0076E75C /* libAPIWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPIWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A6C58C177260AB0076E75C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79A6C590177260AB0076E75C /* APIWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		79A6C591177260AB0076E75C /* APIWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIWrapper.h; sourceTree = "<group>"; };
+		79A6C593177260AB0076E75C /* APIWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIWrapper.m; sourceTree = "<group>"; };
+		79A6C59A177260AB0076E75C /* APIWrapperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIWrapperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A6C59B177260AB0076E75C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79A6C59D177260AB0076E75C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		79A6C5A5177260AB0076E75C /* APIWrapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APIWrapperTests-Info.plist"; sourceTree = "<group>"; };
+		79A6C5A7177260AB0076E75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79A6C5A9177260AB0076E75C /* APIWrapperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIWrapperTests.h; sourceTree = "<group>"; };
+		79A6C5AA177260AB0076E75C /* APIWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIWrapperTests.m; sourceTree = "<group>"; };
+		79A6C5B5177261C60076E75C /* DataObjet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataObjet.h; path = Toolchain/DataObjet.h; sourceTree = "<group>"; };
+		79A6C5B6177261C60076E75C /* DataObjet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataObjet.m; path = Toolchain/DataObjet.m; sourceTree = "<group>"; };
+		79A6C5B8177264010076E75C /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Toolchain/Config.h; sourceTree = "<group>"; };
+		79A6C5B9177264010076E75C /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Toolchain/Config.m; sourceTree = "<group>"; };
+		79A6C87117726B3C0076E75C /* helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A6C586177260AB0076E75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6C58D177260AB0076E75C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A6C596177260AB0076E75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6C59C177260AB0076E75C /* SenTestingKit.framework in Frameworks */,
+				79A6C59E177260AB0076E75C /* UIKit.framework in Frameworks */,
+				79A6C59F177260AB0076E75C /* Foundation.framework in Frameworks */,
+				79A6C5A2177260AB0076E75C /* libAPIWrapper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A6C580177260AB0076E75C = {
+			isa = PBXGroup;
+			children = (
+				79A6C5BB177267E20076E75C /* Third Party */,
+				79A6C58E177260AB0076E75C /* APIWrapper */,
+				79A6C5A3177260AB0076E75C /* APIWrapperTests */,
+				79A6C58B177260AB0076E75C /* Frameworks */,
+				79A6C58A177260AB0076E75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A6C58A177260AB0076E75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C589177260AB0076E75C /* libAPIWrapper.a */,
+				79A6C59A177260AB0076E75C /* APIWrapperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A6C58B177260AB0076E75C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C58C177260AB0076E75C /* Foundation.framework */,
+				79A6C59B177260AB0076E75C /* SenTestingKit.framework */,
+				79A6C59D177260AB0076E75C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A6C58E177260AB0076E75C /* APIWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C591177260AB0076E75C /* APIWrapper.h */,
+				79A6C593177260AB0076E75C /* APIWrapper.m */,
+				79A6C5B4177260DE0076E75C /* Toolchain */,
+				79A6C58F177260AB0076E75C /* Supporting Files */,
+			);
+			path = APIWrapper;
+			sourceTree = "<group>";
+		};
+		79A6C58F177260AB0076E75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C87117726B3C0076E75C /* helpers.h */,
+				79A6C590177260AB0076E75C /* APIWrapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79A6C5A3177260AB0076E75C /* APIWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C5A9177260AB0076E75C /* APIWrapperTests.h */,
+				79A6C5AA177260AB0076E75C /* APIWrapperTests.m */,
+				79A6C5A4177260AB0076E75C /* Supporting Files */,
+			);
+			path = APIWrapperTests;
+			sourceTree = "<group>";
+		};
+		79A6C5A4177260AB0076E75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C5A5177260AB0076E75C /* APIWrapperTests-Info.plist */,
+				79A6C5A6177260AB0076E75C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79A6C5B4177260DE0076E75C /* Toolchain */ = {
+			isa = PBXGroup;
+			children = (
+				79A6C5B5177261C60076E75C /* DataObjet.h */,
+				79A6C5B6177261C60076E75C /* DataObjet.m */,
+				79A6C5B8177264010076E75C /* Config.h */,
+				79A6C5B9177264010076E75C /* Config.m */,
+			);
+			name = Toolchain;
+			sourceTree = "<group>";
+		};
+		79A6C5BB177267E20076E75C /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Third Party";
+			path = APIWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A6C588177260AB0076E75C /* APIWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A6C5AE177260AB0076E75C /* Build configuration list for PBXNativeTarget "APIWrapper" */;
+			buildPhases = (
+				79A6C585177260AB0076E75C /* Sources */,
+				79A6C586177260AB0076E75C /* Frameworks */,
+				79A6C587177260AB0076E75C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIWrapper;
+			productName = APIWrapper;
+			productReference = 79A6C589177260AB0076E75C /* libAPIWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79A6C599177260AB0076E75C /* APIWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A6C5B1177260AB0076E75C /* Build configuration list for PBXNativeTarget "APIWrapperTests" */;
+			buildPhases = (
+				79A6C595177260AB0076E75C /* Sources */,
+				79A6C596177260AB0076E75C /* Frameworks */,
+				79A6C597177260AB0076E75C /* Resources */,
+				79A6C598177260AB0076E75C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A6C5A1177260AB0076E75C /* PBXTargetDependency */,
+			);
+			name = APIWrapperTests;
+			productName = APIWrapperTests;
+			productReference = 79A6C59A177260AB0076E75C /* APIWrapperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A6C581177260AB0076E75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Conrad Calmez";
+			};
+			buildConfigurationList = 79A6C584177260AB0076E75C /* Build configuration list for PBXProject "APIWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79A6C580177260AB0076E75C;
+			productRefGroup = 79A6C58A177260AB0076E75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A6C588177260AB0076E75C /* APIWrapper */,
+				79A6C599177260AB0076E75C /* APIWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A6C597177260AB0076E75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6C5A8177260AB0076E75C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79A6C598177260AB0076E75C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A6C585177260AB0076E75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6C594177260AB0076E75C /* APIWrapper.m in Sources */,
+				79A6C5B7177261C60076E75C /* DataObjet.m in Sources */,
+				79A6C5BA177264010076E75C /* Config.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A6C595177260AB0076E75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6C5AB177260AB0076E75C /* APIWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A6C5A1177260AB0076E75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A6C588177260AB0076E75C /* APIWrapper */;
+			targetProxy = 79A6C5A0177260AB0076E75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79A6C5A6177260AB0076E75C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A6C5A7177260AB0076E75C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A6C5AC177260AB0076E75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79A6C5AD177260AB0076E75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A6C5AF177260AB0076E75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/APIWrapper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APIWrapper/APIWrapper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79A6C5B0177260AB0076E75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/APIWrapper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APIWrapper/APIWrapper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79A6C5B2177260AB0076E75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APIWrapper/APIWrapper-Prefix.pch";
+				INFOPLIST_FILE = "APIWrapperTests/APIWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79A6C5B3177260AB0076E75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APIWrapper/APIWrapper-Prefix.pch";
+				INFOPLIST_FILE = "APIWrapperTests/APIWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A6C584177260AB0076E75C /* Build configuration list for PBXProject "APIWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A6C5AC177260AB0076E75C /* Debug */,
+				79A6C5AD177260AB0076E75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A6C5AE177260AB0076E75C /* Build configuration list for PBXNativeTarget "APIWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A6C5AF177260AB0076E75C /* Debug */,
+				79A6C5B0177260AB0076E75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79A6C5B1177260AB0076E75C /* Build configuration list for PBXNativeTarget "APIWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A6C5B2177260AB0076E75C /* Debug */,
+				79A6C5B3177260AB0076E75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A6C581177260AB0076E75C /* Project object */;
+}

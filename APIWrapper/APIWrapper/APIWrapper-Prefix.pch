@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'APIWrapper' target in the 'APIWrapper' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "helpers.h"
+#endif
